@@ -8,7 +8,7 @@
 
 ```groovy
 dependencies { 
-    implementation 'com.github.hslooooooool.qsos-select:select-lib:[lib-version]'
+    implementation 'com.github.hslooooooool:qsos-select:[lib-version]'
 }
 ```
 
