@@ -1,0 +1,5 @@
+rootProject.name = 'qsos-select'
+
+include ':app'
+
+include ':select-lib'
