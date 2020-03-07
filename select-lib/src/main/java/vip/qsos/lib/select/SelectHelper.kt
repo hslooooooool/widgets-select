@@ -28,8 +28,7 @@ object SelectHelper {
             override fun bindView(dialog: AbsBottomDialog) {
                 val operationRv = dialog.findViewById<RecyclerView>(R.id.operation_rv)
                 operationRv.layoutManager = LinearLayoutManager(activity)
-                val operationAdapter =
-                    SelectOfSingleAdapter(activity, operations)
+                val operationAdapter = SelectOfSingleAdapter(activity, operations)
                 operationRv.adapter = operationAdapter
 
                 operationAdapter.setOnItemClickListener(object : OnSelectListener<Operation> {
