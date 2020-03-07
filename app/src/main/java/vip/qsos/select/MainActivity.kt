@@ -42,7 +42,15 @@ class MainActivity : AppCompatActivity() {
         Operation("选项6", "6"),
         Operation("选项7", "7"),
         Operation("选项8", "8"),
-        Operation("选项9", "9")
+        Operation("选项9", "9"),
+        Operation("选项10", "10"),
+        Operation("选项11", "11"),
+        Operation("选项12", "12"),
+        Operation("选项13", "13"),
+        Operation("选项14", "14"),
+        Operation("选项15", "15"),
+        Operation("选项16", "16"),
+        Operation("选项17", "17")
     )
 
     private val mOperations2 = arrayListOf(
@@ -61,7 +69,15 @@ class MainActivity : AppCompatActivity() {
         Operation("选项6", "6"),
         Operation("选项7", "7"),
         Operation("选项8", "8"),
-        Operation("选项9", "9")
+        Operation("选项9", "9"),
+        Operation("选项10", "10"),
+        Operation("选项11", "11"),
+        Operation("选项12", "12"),
+        Operation("选项13", "13"),
+        Operation("选项14", "14"),
+        Operation("选项15", "15"),
+        Operation("选项16", "16"),
+        Operation("选项17", "17")
     )
 
     private val mOperations4 = arrayListOf(

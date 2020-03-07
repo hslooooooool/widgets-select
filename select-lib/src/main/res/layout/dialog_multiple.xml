@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    android:background="#22000000"
     android:orientation="vertical">
 
-    <vip.qsos.lib.select.MaxHeightRecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_select"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#F6F6F6"
         android:minHeight="200dp"
-        app:formMaxHeight="350dp"
         tools:listitem="@layout/item_chose_multiple" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:background="#FFFFFF"
         android:gravity="center_vertical"
         android:orientation="horizontal">
 

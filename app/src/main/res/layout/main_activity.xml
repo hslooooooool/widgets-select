@@ -10,7 +10,7 @@
         android:id="@+id/select_picked"
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:background="@color/colorPrimary"
+        android:background="#222222"
         android:gravity="center"
         android:text="@string/app_welcome"
         android:textColor="@android:color/white"

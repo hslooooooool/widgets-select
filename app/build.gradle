@@ -6,26 +6,8 @@ android {
     defaultConfig {
         applicationId "vip.qsos.select"
     }
-
-    // 自定义apk名称含版本号信息
-    android.applicationVariants.all { variant ->
-        // 更新gradle 4.10.1+使用如下
-        variant.outputs.all {
-            outputFileName = "${apkName()}-${variant.versionCode}-${apkTime()}.apk"
-        }
-    }
 }
 
 dependencies {
-    implementation 'com.github.hslooooooool:qsos-select:1.0'
-}
-
-// 获取编译时间
-static def apkTime() {
-    return new Date().format("yyyy-MM-dd", TimeZone.getTimeZone("UTC"))
-}
-
-// 获取软件名称
-static def apkName() {
-    return "QSOS-SELECT"
+    implementation project(':select-lib')
 }

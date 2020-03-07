@@ -1,3 +1,5 @@
+apply plugin: 'com.github.dcendents.android-maven'
+
 group = 'com.github.hslooooooool'
 
 task sourcesJar(type: Jar) {

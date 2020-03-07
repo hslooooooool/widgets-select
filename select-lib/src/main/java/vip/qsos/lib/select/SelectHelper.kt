@@ -26,7 +26,7 @@ object SelectHelper {
         bottomDialog.setDimAmount(0.6f)
         bottomDialog.setViewListener(object : BottomDialog.ViewListener {
             override fun bindView(dialog: AbsBottomDialog) {
-                val operationRv = dialog.findViewById<MaxHeightRecyclerView>(R.id.operation_rv)
+                val operationRv = dialog.findViewById<RecyclerView>(R.id.operation_rv)
                 operationRv.layoutManager = LinearLayoutManager(activity)
                 val operationAdapter =
                     SelectOfSingleAdapter(activity, operations)
